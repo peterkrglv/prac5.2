@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recyclerViewFragment">
+
+    <fragment
+        android:id="@+id/scrollViewFragment"
+        android:name="com.example.prac52.ScrollViewFragment"
+        android:label="ScrollViewFragment" />
+    <fragment
+        android:id="@+id/spinnerFragment"
+        android:name="com.example.prac52.SpinnerFragment"
+        android:label="fragment_spinner"
+        tools:layout="@layout/fragment_spinner" />
+    <fragment
+        android:id="@+id/recyclerViewFragment"
+        android:name="com.example.prac52.RecyclerViewFragment"
+        android:label="fragment_recycler_view"
+        tools:layout="@layout/fragment_recycler_view" />
+</navigation>
